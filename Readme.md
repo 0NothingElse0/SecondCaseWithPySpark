@@ -5,6 +5,9 @@
 
 # Результат работы программы
 PySpark запускал в контейнере Docker jupyter/all-spark-notebook
+
+```
+Products
 +---------+--------------------+
 |productId|         productName|
 +---------+--------------------+
@@ -13,7 +16,9 @@ PySpark запускал в контейнере Docker jupyter/all-spark-notebo
 |        3|       Third product|
 |        4|Fourth product wi...|
 +---------+--------------------+
-
+```
+```
+Categories
 +----------+---------------+
 |categoryId|   categoryName|
 +----------+---------------+
@@ -21,7 +26,9 @@ PySpark запускал в контейнере Docker jupyter/all-spark-notebo
 |         2|Second category|
 |         3| Third category|
 +----------+---------------+
-
+```
+```
+Links
 +---------+----------+
 |productId|categoryId|
 +---------+----------+
@@ -30,7 +37,9 @@ PySpark запускал в контейнере Docker jupyter/all-spark-notebo
 |        2|         2|
 |        3|         1|
 +---------+----------+
-
+```
+```
+Result
 +--------------------+---------------+
 |         productName|   categoryName|
 +--------------------+---------------+
@@ -40,3 +49,4 @@ PySpark запускал в контейнере Docker jupyter/all-spark-notebo
 |       First product|Second category|
 |      Second product|Second category|
 +--------------------+---------------+
+```
